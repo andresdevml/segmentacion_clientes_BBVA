@@ -1,8 +1,8 @@
 # Segmentación de clientes (BBVA 🏦)
 
-_A través de un resumen de los movimientos de los clientes del banco y otras características ( excluyendo la rentabilidad ). Se realizó una segmentación en pocos grupos, cuyas rentabilidades son diferenciadas entre ellos pero comunes a miembros del mismo grupo. 
+A través de un resumen de los movimientos de los clientes del banco y otras características ( excluyendo la rentabilidad ). Se realizó una segmentación en pocos grupos, cuyas rentabilidades son diferenciadas entre ellos pero comunes a miembros del mismo grupo. 
 
-Los resultados podrían ser útiles para mejorar la oferta de productos y servicios bancarios, así como para diseñar estrategias de marketing más efectivas y personalizadas._
+Los resultados podrían ser útiles para mejorar la oferta de productos y servicios bancarios, así como para diseñar estrategias de marketing más efectivas y personalizadas.
 
 # Herramientas 🛠️
 
@@ -15,10 +15,24 @@ Los resultados podrían ser útiles para mejorar la oferta de productos y servic
 
 #  Limpieza e Ingeniería de características  ⚙️
 
-_En primera instancia es necesario limpiar el dataset provisto. Ya que contamos con una gran cantidad de datos es factible eliminar aquellas instancias que tengan datos faltantes para una primera aproximación. Posteriormente se podrán llenar los espacios faltantes con la media o la mayoría de la columna respectiva. 
+En primera instancia es necesario limpiar el dataset provisto. Ya que contamos con una gran cantidad de datos es factible eliminar aquellas instancias que tengan datos faltantes para una primera aproximación. Posteriormente se podrán llenar los espacios faltantes con la media o la mayoría de la columna respectiva. 
 
-Además es necesario realizar la ingeniería de características, transformando la data al espacio de representación numérico más idóneo para su posterior procesamiento._
+Además es necesario realizar la ingeniería de características, transformando la data al espacio de representación numérico más idóneo para su posterior procesamiento.
 
 # Segmentación 🔮
 
-_Con la data correctamente tratada, aplicamos un algoritmo de Machine Learning especializado en la separación de grupos, denominado UMAP por sus siglas en inglés (Uniform Manifold Approximation and Projection). Posteriormente definimos los clusters a través de DBSCAN. Todo este proceso, junto con el tratamiento de los datos, puede seguirse en el NoteBook **segmentacion_graficos.ipynb**._
+Con la data correctamente tratada, aplicamos un algoritmo de Machine Learning especializado en la separación de grupos, denominado UMAP por sus siglas en inglés (Uniform Manifold Approximation and Projection). Posteriormente definimos los clusters a través de DBSCAN. Todo este proceso, junto con el tratamiento de los datos, puede seguirse en el NoteBook _**segmentacion_graficos.ipynb**_.
+
+![clusters](https://github.com/huachibigote/segmentacion_clientes/assets/61852105/d2c37078-35fd-4500-a1e0-c3f74b1cf2ac)
+
+Calculando el ratio de rentabilidad para cada grupo obtenemos que cada uno de los grupos posee una rentabilidad diferenciada. 
+
+![rentabilidad](https://github.com/huachibigote/segmentacion_clientes/assets/61852105/d337a571-b147-4b08-963d-0ad23ea11adc)
+
+
+# Herramienta predictiva y recomendación de productos 🎁
+
+Una vez definidos los grupos, se entrenó un modelo para predecir a qué grupo pertenece cada cliente, posteriormente observando los productos que más se repiten entre las instancias vecinas podemos hacer un recomendador básico de productos. Todo este proceso puede seguirse en el NoteBook _**segmentacion_recomendacion.ipynb**_.
+
+
+
