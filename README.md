@@ -21,7 +21,7 @@ Además es necesario realizar la ingeniería de características, transformando 
 
 # Segmentación 🔮
 
-Con la data correctamente tratada, aplicamos un algoritmo de Machine Learning especializado en la separación de grupos, denominado UMAP por sus siglas en inglés (Uniform Manifold Approximation and Projection). Posteriormente definimos los clusters a través de DBSCAN. Todo este proceso, junto con el tratamiento de los datos, puede seguirse en el NoteBook _**segmentacion_graficos.ipynb**_.
+Con la data correctamente tratada, aplicamos un algoritmo de Machine Learning especializado en la separación de grupos, denominado UMAP por sus siglas en inglés (Uniform Manifold Approximation and Projection). Posteriormente definimos los clusters a través de DBSCAN. Todo este proceso, junto con el tratamiento de los datos, puede seguirse en el Notebook _**segmentacion_graficos.ipynb**_.
 
 ![clusters](https://github.com/huachibigote/segmentacion_clientes/assets/61852105/d2c37078-35fd-4500-a1e0-c3f74b1cf2ac)
 
@@ -32,7 +32,7 @@ Calculando el ratio de rentabilidad para cada grupo obtenemos que cada uno de lo
 
 # Herramienta predictiva y recomendación de productos 🎁
 
-Una vez definidos los grupos, se entrenó un modelo para predecir a qué grupo pertenece cada cliente, posteriormente observando los productos que más se repiten entre las instancias vecinas podemos hacer un recomendador básico de productos. Todo este proceso puede seguirse en el NoteBook _**segmentacion_recomendacion.ipynb**_.
+Una vez definidos los grupos, se entrenó un modelo para predecir a qué grupo pertenece cada cliente. Posteriormente observando los productos que más se repiten entre las instancias vecinas, podemos hacer un recomendador básico de productos. Todo este proceso puede seguirse en el Notebook _**segmentacion_recomendacion.ipynb**_.
 
 
 
