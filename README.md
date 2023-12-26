@@ -1,4 +1,4 @@
-# Segmentación de clientes (BBVA 🏦)
+# Segmentación de clientes BBVA 🏦
 
 A través de un resumen de los movimientos de los clientes del banco y otras características ( excluyendo la rentabilidad ). Se realizó una segmentación en pocos grupos, cuyas rentabilidades son diferenciadas entre ellos pero comunes a miembros del mismo grupo. 
 
