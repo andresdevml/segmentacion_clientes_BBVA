@@ -30,9 +30,4 @@ Calculando el ratio de rentabilidad para cada grupo obtenemos que cada uno de lo
 ![rentabilidad](https://github.com/huachibigote/segmentacion_clientes/assets/61852105/d337a571-b147-4b08-963d-0ad23ea11adc)
 
 
-# Herramienta predictiva y recomendación de productos 🎁
-
-Una vez definidos los grupos, se entrenó un modelo para predecir a qué grupo pertenece cada cliente. Posteriormente observando los productos que más se repiten entre las instancias vecinas, podemos hacer un recomendador básico de productos. Todo este proceso puede seguirse en el Notebook _**segmentacion_recomendacion.ipynb**_.
-
-
 
