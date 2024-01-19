@@ -2,7 +2,7 @@
 
 A través de un resumen de los movimientos de los clientes del banco y otras características ( excluyendo la rentabilidad ). Se realizó una segmentación en pocos grupos, cuyas rentabilidades son diferenciadas entre ellos pero comunes a miembros del mismo grupo. 
 
-Los resultados podrían ser útiles para mejorar la oferta de productos y servicios bancarios, así como para diseñar estrategias de marketing personalizadas.
+Los resultados fueron útiles para mejorar la oferta de productos y servicios bancarios, así como para diseñar estrategias de marketing personalizadas.
 
 # Herramientas 🛠️
 
